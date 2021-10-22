@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Preliminary Program</TITLE>
+
+<style>
+
+BODY {
+   MARGIN-TOP: 15pt;
+   MARGIN-LEFT: 15pt;
+   MARGIN-RIGHT: 15pt;
+   MARGIN-BOTTOM: 15pt;
+   FONT-SIZE: 10pt;
+   FONT-FAMILY: "Times New Roman";
+   BACKGROUND-COLOR: #ffffff;
+   COLOR: #000000;
+}
+
+P {
+   FONT-SIZE: 10pt;
+}
+
+TD {
+   FONT-SIZE: 10pt;
+}
+
+TH {
+   FONT-SIZE: 10pt;
+}
+
+
+A {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+A:visited {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+A:active {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   TEXT-DECORATION: none
+}
+A:hover {
+   COLOR: #32426c;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+   TEXT-DECORATION: underline
+}
+H4 {
+   FONT-SIZE: 10pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H3 {
+   FONT-SIZE: 11pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H2 {
+   FONT-SIZE: 12pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+H1 {
+   FONT-SIZE: 14pt;
+   FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+</style>
+
+<p>
+
+<h4>Leveraging Pretrained Models for Automatic Summarization of Doctor-Patient Conversations</h4>
+
+<em>Longxiang Zhang<sup>1</sup>,&nbsp;Renato Negrinho<sup>2</sup>,&nbsp;Arindam Ghosh<sup>3</sup>,&nbsp;Vasudevan Jagannathan<sup>3</sup>,&nbsp;Hamid Reza Hassanzadeh<sup>4</sup>,&nbsp;Thomas Schaaf<sup>1</sup>,&nbsp;Matthew R. Gormley<sup>2</sup></em><br>
+<sup>1</sup>3M | M*Modal, <sup>2</sup>Carnegie Mellon University, <sup>3</sup>3M, <sup>4</sup>NLP Researcher at 3M HIS
+
+<p>
+
+<hr>
+
+
+<h4>Abstract</h4>
+
+<blockquote>
+    <p>Fine-tuning pre-trained models for automatically summarizing doctor-patient conversation transcripts presents many challenges: limited training data, significant domain shift, long and noisy transcripts, and high target summary variability. In this paper, we explore the feasibility of using pre-trained transformer models for automatically summarizing doctor-patient conversations directly from transcripts. We show that fluent and adequate summaries can be generated with limited training data by fine-tuning BART on a specially constructed dataset. The resulting models greatly surpass the performance of an average human annotator and the quality of previous published work for the task. We evaluate multiple methods for handling long conversations, comparing them to the obvious baseline of truncating the conversation
+to fit the pre-trained model length limit. We introduce a multistage approach that tackles the task by learning two fine-tuned models: one for summarizing conversation chunks into partial summaries, followed by one for rewriting the collection of partial summaries into a complete summary. Using a carefully chosen fine-tuning dataset, this method is shown to be effective at handling longer conversations, improving the quality of generated summaries. We conduct both an automatic evaluation (through ROUGE and two concept-based metrics focusing on medical findings) and a human evaluation (through qualitative examples from literature, assessing hallucination, generalization, fluency, and general quality of the generated summaries).</p> </p>
+</blockquote>
+
+
+
+
+<hr>
+
+<p>
+</body>
+</html>
